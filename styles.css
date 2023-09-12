@@ -1,5 +1,5 @@
 /*  your css code here. If applicable */
-function secondHighest(arr){
+let secondHighest=(arr)=>{
 
     let f=0;
     let s=0;
