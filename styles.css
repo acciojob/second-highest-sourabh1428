@@ -1,1 +1,21 @@
 /*  your css code here. If applicable */
+function secondHighest(arr){
+
+    let f=0;
+    let s=0;
+
+    arr.forEach(x => {
+        if(x>f){
+            s=f;
+            f=x;
+        }
+        else if(x>s){
+            s=x;
+        }
+    });
+
+
+    
+return s;
+
+}
